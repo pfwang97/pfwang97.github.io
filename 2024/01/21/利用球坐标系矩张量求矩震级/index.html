@@ -28,7 +28,7 @@
 <meta property="og:description" content="利用球坐标系矩张量求矩震级例子：201001010222A XIZANG  Date: 2010&#x2F; 1&#x2F; 1   Centroid Time:  2:22:27.1 GMT  Lat&#x3D;  30.43  Lon&#x3D;  83.91  Depth&#x3D; 16.4   Half duration&#x3D; 1.0  Centroid time minus hy">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-01-21T12:35:00.000Z">
-<meta property="article:modified_time" content="2024-01-21T12:47:37.873Z">
+<meta property="article:modified_time" content="2024-01-21T12:51:46.876Z">
 <meta property="article:author" content="WANG Peifeng">
 <meta name="twitter:card" content="summary">
 
@@ -195,7 +195,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2024-01-21 20:35:00 / Modified: 20:47:37" itemprop="dateCreated datePublished" datetime="2024-01-21T20:35:00+08:00">2024-01-21</time>
+              <time title="Created: 2024-01-21 20:35:00 / Modified: 20:51:46" itemprop="dateCreated datePublished" datetime="2024-01-21T20:35:00+08:00">2024-01-21</time>
             </span>
 
           
@@ -224,15 +224,10 @@
 <p>[&#x3D; 7.637 \times 10^{23}]</p>
 <p>因此，地震的标量矩 ( M_0 ) 大约为 ( 7.637 \times 10^{23} ) Nm。这个计算结果与GCMT提供的值 ( 7.63 \times 10^{23} ) Nm 接近。</p>
 <h2 id="利用标量矩-M-0-求矩震级"><a href="#利用标量矩-M-0-求矩震级" class="headerlink" title="利用标量矩 ( M_0 ) 求矩震级"></a>利用标量矩 ( M_0 ) 求矩震级</h2><p>地震矩震级（Mw）根据Kanamori（1997年）的公式计算如下：</p>
-<p>$$ Mw &#x3D; \frac{2}{3} \log_{10}(M_0) - 10.7 $$</p>
+<p>[Mw &#x3D; \frac{2}{3} \log_{10}(M_0) - 10.7]</p>
 <p>其中，$\log_{10}$ 是以10为底的对数，$M_0$ 是地震矩，单位为达因·厘米。</p>
 <p>以提供的数据为例，地震矩$ M_0 &#x3D; 7.63 \times 10^{23} $ 达因·厘米，我们可以将它代入公式计算Mw：</p>
-<p>$$ Mw &#x3D; \frac{2}{3} \log_{10}(7.63 \times 10^{23}) - 10.7 $$</p>
-<p>$$ Mw &#x3D; \frac{2}{3} (23 + \log_{10}(7.63)) - 10.7 $$</p>
-<p>$$ Mw &#x3D; \frac{2}{3} (23 + 0.882) - 10.7 $$</p>
-<p>$$ Mw &#x3D; \frac{2}{3} \cdot 23.882 - 10.7 $$</p>
-<p>$$ Mw &#x3D; 15.921 - 10.7 $$</p>
-<p>$$ Mw &#x3D; 5.221 $$</p>
+<p>[\begin{align*}<br>M_w &amp;&#x3D; \frac{2}{3} \log_{10}(7.63 \times 10^{23}) - 10.7 \<br>&amp;&#x3D; \frac{2}{3} (23 + \log_{10}(7.63)) - 10.7 \<br>&amp;&#x3D; \frac{2}{3} (23 + 0.882) - 10.7 \<br>&amp;&#x3D; \frac{2}{3} \cdot 23.882 - 10.7 \<br>&amp;&#x3D; 15.921 - 10.7 \<br>&amp;&#x3D; 5.221<br>\end{align*}]</p>
 <p>四舍五入后，我们得到$ Mw \approx 5.2 $。</p>
 <p>这与GCMT提供的原始地震矩震级Mw &#x3D; 5.2相符。</p>
 
